@@ -11,21 +11,21 @@ It is only hosted on localhost at the moment. In other words, you could follow c
 
 ***Instruction***:
 
-*CLI for Backend*:
-npm init -y
-npm install nodemon cors dotenv express mongodb axios
-nodemon server
+-*CLI for Backend*:
+  -npm init -y
+  -npm install nodemon cors dotenv express mongodb axios
+  -nodemon server
 
 *CLI for Frontend*:
-npx create-react-app frontend
-npm install react-router-dom axios @react-css/grid
+  -npx create-react-app frontend
+  -npm install react-router-dom axios @react-css/grid
 
 *package.json for Backend*:
-package.json ..> add “type”: “module,
+  -package.json ..> add “type”: “module,
 
 *.env for Backend*:
-MONGODB_URI = The connection string of mongodb cluster
-MONGODB_NS = The name of mongodb database
-YOUTUBE_API_KEY = The API key for youtube data api
-PORT = The port no. for backend server
+  -MONGODB_URI = The connection string of mongodb cluster
+  -MONGODB_NS = The name of mongodb database
+  -YOUTUBE_API_KEY = The API key for youtube data api
+  -PORT = The port no. for backend server
 

@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    background-color:lightblue;
+}
+
+main {
+    text-align: center;
+}
+
+table {
+    border:2px dashed whitesmoke;
+    margin:10px auto;
+    padding:1px;
+}
+
+th {
+    padding: 8px;
+}
+
+td {
+    padding: 5px;
+    text-align: right;
+    justify-content: space-between;
+    
+}
+
+fieldset {
+    border: none;
+    margin:0;
+    padding:5px;
+}
+
+label > input {
+    width:20%;
+}
+
+a {
+    display:inline-block;
+}
+
+mark  {
+    background-color: yellowgreen;
+}
+
+a,button {
+    text-decoration: none;
+    background-color: lightgray;
+    color:black;
+    padding: 3px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.button_update {
+    background-color:rgb(88, 191, 255); 
+    color: white;
+} 
+
+.inputValues {
+    margin: 5px;
+    padding: 2px;
+    width: 700px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+
+.inputValue {
+    background-color: yellow;
+    color:black;
+    border: 2px solid blue;
+    height: 20px;
+    width: 20px;
+    padding:5px 10px;
+
+}
+
+input.inputValue   {
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+    margin:5px;
+}
+
+.updateBack {
+    margin:20px;
+}
+
+footer {
+    margin-top: 30px;
+    color: lightslategray;
+    text-align: center;
+}

@@ -1,0 +1,130 @@
+
+
+div {
+  align-items: stretch;
+  text-align: center;
+}
+
+.app {
+  background-color:forestgreen;
+  font-family: sans-serif;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+  padding:1vh;
+}
+
+.formation-choices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size:  50px;
+  min-height: 20%;
+  margin:1vh;
+}
+
+.formation-choice {
+  justify-content: center;
+  min-width: 30%;
+}
+
+.formation-link {
+  color:gold;
+  text-decoration: none;
+}
+
+.formation {
+  color: #61dafb;
+  margin:1vh;
+}
+
+.greenfield {
+  margin: 4vh;
+}
+
+.player {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:antiquewhite;
+  border: 2px solid #282c34;;
+  color:black;
+  margin:4vh auto;
+}
+
+.player button {
+  position: absolute;
+  right: 0;
+  top:0;
+}
+
+input {
+  background-color: grey;
+  border-color: black;
+  font-size: 12px;
+  width:120px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.video {
+  margin: 2px;
+}
+
+img {
+  display:table;
+}
+
+.homepage {
+  padding-top: 10%;
+}
+
+.reg-login {
+  color:darkblue;
+  font-size:  30px;
+  border: 4px dashed goldenrod;
+  padding:10px;
+  text-decoration: none;
+  min-height: 5%;
+  animation: glow 5s infinite alternate;
+
+}
+
+.login {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: stretch;
+  justify-content: center;
+  font-size: large;
+  padding-top: 20px;
+  min-height: 80%;
+}
+
+.login label {
+  grid-column: 1 / span 2;
+  min-width: 200px;
+}
+
+.login button {
+  grid-column: 3 / span 1;
+  width: 100%;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff0379b0, 0 0 30px #ff0379b0, 0 0 40px #ff0379b0, 0 0 50px #ff0379b0, 0 0 60px #ff0379b0, 0 0 70px #ff0379b0;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffbb29, 0 0 40px #ffbb29, 0 0 50px #ffbb29, 0 0 60px #ffbb29, 0 0 70px #ffbb29, 0 0 80px #ffbb29;
+  }
+}
